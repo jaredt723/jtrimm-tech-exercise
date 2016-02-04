@@ -1,0 +1,177 @@
+.textbox {
+    width: 275px;
+    border: solid 1px #ccc;
+    height: 26px;
+    background: #5E768D;
+    background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #546A7F), color-stop(20%, #5E768D));
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 0 #f2f2f2;
+    -webkit-box-shadow: 0 1px 0 #F2F2F2;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #F2F2F2;
+    text-shadow: 0 -1px 0 #334F71;
+}
+
+.textbox:focus {
+    background: #728EAA;
+    background: -moz-linear-gradient(top, #668099 0%, #728EAA 20%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #668099), color-stop(20%, #728EAA));
+    outline: 0;
+}
+
+.styled-button-sub {
+	background:#5CCD00;
+	background:-moz-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#5CCD00),color-stop(100%,#4AA400));
+	background:-webkit-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background:-o-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background:-ms-linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	background:linear-gradient(top,#5CCD00 0%,#4AA400 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5CCD00', endColorstr='#4AA400',GradientType=0);
+	padding:10px 15px;
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:16px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #459A00
+}
+
+.styled-button-reset {
+	background: #FEDA71;
+	background: -moz-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FEDA71),color-stop(100%,#FEBB49));
+	background: -webkit-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -o-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: -ms-linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	background: linear-gradient(top,#FEDA71 0%,#FEBB49 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#FEDA71',endColorstr='#FEBB49',GradientType=0);	padding:10px 15px;
+	color:#500;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:16px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #993d00
+}
+
+.main{
+	font-family:sans-serif;
+	font-size: 16px;
+	padding-left: 260px;
+	padding-top: 60px;
+}
+
+html{
+	background-color: #f0f0f5;
+}
+
+.styled {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:7px;
+	-webkit-border-bottom-left-radius:7px;
+	border-bottom-left-radius:7px;
+	
+	-moz-border-radius-bottomright:7px;
+	-webkit-border-bottom-right-radius:7px;
+	border-bottom-right-radius:7px;
+	
+	-moz-border-radius-topright:7px;
+	-webkit-border-top-right-radius:7px;
+	border-top-right-radius:7px;
+	
+	-moz-border-radius-topleft:7px;
+	-webkit-border-top-left-radius:7px;
+	border-top-left-radius:7px;
+}.styled table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.styled tr:last-child td:last-child {
+	-moz-border-radius-bottomright:7px;
+	-webkit-border-bottom-right-radius:7px;
+	border-bottom-right-radius:7px;
+}
+.styled table tr:first-child td:first-child {
+	-moz-border-radius-topleft:7px;
+	-webkit-border-top-left-radius:7px;
+	border-top-left-radius:7px;
+}
+.styled table tr:first-child td:last-child {
+	-moz-border-radius-topright:7px;
+	-webkit-border-top-right-radius:7px;
+	border-top-right-radius:7px;
+}.styled tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:7px;
+	-webkit-border-bottom-left-radius:7px;
+	border-bottom-left-radius:7px;
+}
+
+a:link {
+	font-family: verdana,arial,sans-serif;
+	font-size: 20px;
+	color: #551A8B;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+a:visited:hover {
+	color: #ffffff;
+}
+
+a:visited {
+	color: #666699;
+}
+
+.sidebar{
+	position: fixed;
+	height:100%;
+	background: #878787;
+	width:240px;
+	margin-right: 15px;
+	padding-left: 10px;
+	margin-top: 50px;
+
+}
+
+.header{
+	position:fixed;
+	height:70px;
+	background: #595959;
+	width:100%;
+	margin-top: -10px;
+	text-align: center;
+}
+
+.rec1{
+	height:360px;
+}
+
+.rec2{
+	height:360px;
+	background-color: #e0e0e5;
+}
+
+img{
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.footer{
+	text-align: right;
+	font-size: 10px;
+}
