@@ -20,7 +20,7 @@
        			<?php
 			$servername = "localhost";
 			$username = "jtrimm";
-			$password = ""; //removed for security
+			$password = ""; //Omitted for security.
 			$dbname = "myDB";
 
 			$conn = new mysqli($servername, $username, $password, $dbname);
